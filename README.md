@@ -10,17 +10,14 @@ How does it work now?
 How should it work?
 
     [DONE] - I should be able to see JSON data for all cities
-    - I should be able to see JSON data for all restaurants
-    - I should be able to see JSON data for restaurants in a single city
+    [DONE] - I should be able to see JSON data for all restaurants
+    [DONE] - I should be able to see JSON data for restaurants in a single city
 
     [FOR THE JSON API]
-    [ ] need controllers for cities and restaurants
-        [ ] index actions (maybe show) for both controllers
+    [x] need controllers for cities and restaurants
+        [x] index actions (maybe show) for both controllers
     [x] need routes
     [x] need some seed data
-
-
-
 
     - I should be able to see an index page of all cities, with lists of restaurants for every city
 
