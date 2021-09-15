@@ -19,7 +19,7 @@ How should it work?
     [x] need routes
     [x] need some seed data
 
-    - I should be able to see an index page of all cities, with lists of restaurants for every city
+    [DONE] - I should be able to see an index page of all cities, with lists of restaurants for every city
 
 
 Permissions Changes Required?

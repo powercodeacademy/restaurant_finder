@@ -1,11 +1,17 @@
+import RestaurantCard from "./RestaurantCard"
+
 const CityCard = ({ city }) => (
   <>
     <h3>{city.name}</h3>
-    <p>This is where our city overview will go</p>
+    <p>{city.overview}</p>
     <ul>
       {
         city.restaurants.map(restaurant => (
-          <li key={restaurant.name}>{`${restaurant.name}: ${restaurant.star_rating} stars`}</li>
+          <RestaurantCard
+              key={restaurant.id}
+              name={restaurant.name}
+              starRating={restaurant.star_rating}
+          />
         ))
       }
     </ul>
