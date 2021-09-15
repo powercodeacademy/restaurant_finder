@@ -17,7 +17,7 @@ How should it work?
     [ ] need controllers for cities and restaurants
         [ ] index actions (maybe show) for both controllers
     [ ] need routes
-    [ ] need some seed data
+    [x] need some seed data
 
 
 

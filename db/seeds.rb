@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+philadelphia = City.create(name: "Philadelphia")
+memphis = City.create(name: "Memphis")
+
+Restaurant.create(name: "El Vez", star_rating: 4, city: philadelphia)
+Restaurant.create(name: "Wawa", star_rating: 1, city: philadelphia)
+Restaurant.create(name: "Pho Tau Bay", star_rating: 4, city: philadelphia)
+Restaurant.create(name: "Babalu", star_rating: 4, city: memphis)
+Restaurant.create(name: "Taqueria Express #5", star_rating: 5, city: memphis)
