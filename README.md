@@ -9,7 +9,7 @@ How does it work now?
 
 How should it work?
 
-    - I should be able to see JSON data for all cities
+    [DONE] - I should be able to see JSON data for all cities
     - I should be able to see JSON data for all restaurants
     - I should be able to see JSON data for restaurants in a single city
 
