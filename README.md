@@ -16,7 +16,7 @@ How should it work?
     [FOR THE JSON API]
     [ ] need controllers for cities and restaurants
         [ ] index actions (maybe show) for both controllers
-    [ ] need routes
+    [x] need routes
     [x] need some seed data
 
 
