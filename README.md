@@ -38,7 +38,7 @@ Acceptance Criteria
     - Visiting localhost:3000/cities should return all cities in JSON format.
     - Visiting localhost:3000/restaurants should return all restaurants in JSON format.
     - Visiting localhost:3000/cities/:city_id/:restaurants should return a given city and its restaurants in JSON format.
-    - Visiting localhost:4000/ should show a web page that has an index of all cities, and information about the city.
+    - Visiting localhost:4000/ should show a web page that has an index of all cities, and information about the city + its restaurants.
       - There should be an overview saying how many restaurants the city has, along with the average star rating of all restaurants in the city.
 
 
